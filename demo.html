@@ -216,7 +216,7 @@
       padding: 10px 15px;
       border-radius: 4px;
       border: 1px solid #ddd;
-      width: 100%;
+      width: 48%;
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
       transition: background 0.3s;
       font-family: 'Quicksand', sans-serif;
@@ -300,8 +300,10 @@
     <div class="container">
       <a href="#about"><i class="fas fa-user"></i> About Me</a>
       <a href="#coursework"><i class="fas fa-book"></i> Coursework</a>
+      <a href="#projects"><i class="fas fa-project-diagram"></i> Projects</a>
       <a href="#research"><i class="fas fa-flask"></i> Research</a>
-      </div>
+      <a href="#contact"><i class="fas fa-envelope"></i> Contact</a>
+    </div>
   </nav>
 
   <!-- Main Content -->
@@ -353,7 +355,7 @@
 
     <!-- Research Experience Section -->
     <section id="research">
-      
+      <h2>Research Experience</h2>
       <div class="lab-info" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
         <div>
           <h3 style="color: #008080;">High Performance Domain-Specific Architectures Group</h3>
@@ -393,36 +395,44 @@
     <!-- Coursework Section -->
     <section id="coursework">
       <h2>Coursework</h2>
-      <div class="course-columns" style="display: flex; justify-content: space-between; gap: 20px;">
-        <div class="course-section" style="flex: 1;">
-          <h3>Graduate Courses</h3>
-          <ul>
-            <li>Interconnection Networks: 18.7/20 (Ranked 2nd)</li>
-            <li>Advanced Computer Architecture: 18.1/20 (Ranked 3rd)</li>
-            <li>Advanced Computer Architecture: Prof. Yale Patt at BSC (Audited)</li>
-          </ul>
+      <ul>
+        <li>Interconnection Networks for Modern SSDs</li>
+        <li>Tensor Cores and Sparse GEMM</li>
+        <li>Operating Systems: 20/20</li>
+        <li>Computer Networks: 20/20</li>
+        <li>Multi-Core Computing: 19/20</li>
+        <li>Digital System Design: 20/20</li>
+        <li>Real-Time Systems: 20/20</li>
+        <li>Embedded Systems: 18.5/20</li>
+        <li>VLSI Design: 17.5/20</li>
+      </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="card-grid">
+        <div class="card">
+          <h3>Vector Unit Integration in RISC-V Processor</h3>
+          <p>Integrated a Vector Unit into the Sargantana RISC-V processor and developed ISA instructions using SystemVerilog.</p>
         </div>
-        <div class="course-section" style="flex: 1;">
-          <h3>Undergrad Courses</h3>
-          <ul>
-            <li>Operating Systems: 20/20</li>
-            <li>Computer Networks: 20/20</li>
-            <li>Multi-Core Computing: 19/20</li>
-            <li>Computer Architecture: 19.6/20</li>
-            <li>Digital System Design: 20/20</li>
-            <li>Real-Time Systems: 20/20</li>
-            <li>Embedded Systems: 18.5/20</li>
-            <li>VLSI Design: 17.5/20</li>
-          </ul>
+        <div class="card">
+          <h3>Cache Prefetcher Integration</h3>
+          <p>Implemented a cache prefetcher to enhance memory hierarchy for RISC-V projects.</p>
+        </div>
+        <div class="card">
+          <h3>NVMeVirt Emulator Advancement</h3>
+          <p>Enhancing NVMeVirt emulator to support interconnection network capabilities for improved SSD performance.</p>
         </div>
       </div>
     </section>
 
-    <!-- Projects Section -->
-    
-
     <!-- Contact Section -->
-    
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>You can reach me via email at: <span class="highlight">alirf2077@gmail.com</span></p>
+      <p>Or connect with me on <a href="https://github.com/alirf2077" target="_blank">GitHub</a>.</p>
+    </section>
 
   </div>
 
