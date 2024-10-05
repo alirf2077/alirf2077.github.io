@@ -3,10 +3,144 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Alireza's Personal Website</title>
+  <meta name="description" content="Alireza Foroudnia's Academic Portfolio">
+  <title>Alireza Foroudnia - Personal Website</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: #333;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5em;
+    }
+    #profile-pic {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      margin-top: 20px;
+      border: 4px solid #fff;
+    }
+    nav {
+      background: #444;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      padding: 14px 20px;
+      text-decoration: none;
+      font-size: 1.2em;
+    }
+    nav a:hover {
+      background: #555;
+    }
+    section {
+      padding: 20px;
+      margin: 20px 0;
+      background: #fff;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+    h2 {
+      color: #444;
+      margin-bottom: 15px;
+    }
+    ul {
+      list-style-type: square;
+      margin-left: 20px;
+    }
+    footer {
+      text-align: center;
+      background: #333;
+      color: #fff;
+      padding: 10px;
+    }
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 20px;
+    }
+  </style>
 </head>
 <body>
-  <h1>Welcome to My Personal Website</h1>
-  <p>This is where I showcase my projects and work.</p>
+
+  <!-- Header -->
+  <header>
+    <h1>Alireza Foroudnia</h1>
+    <p>Final Year Computer Engineering Student | Sharif University of Technology</p>
+    <img id="profile-pic" src="your-image-url-here.jpg" alt="Alireza Foroudnia's Profile Picture">
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="#about">About Me</a>
+    <a href="#coursework">Coursework</a>
+    <a href="#projects">Projects</a>
+    <a href="#research">Research Experience</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="container">
+
+    <!-- About Section -->
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Hello! I’m Alireza Foroudnia, a computer engineering student specializing in GPU architecture and computer architecture. I have experience working with Tensor Cores, GPGPU-Sim, and have contributed to several open-source projects. I'm passionate about research and enjoy tackling challenges in architecture and hardware development.</p>
+    </section>
+
+    <!-- Coursework Section -->
+    <section id="coursework">
+      <h2>Coursework</h2>
+      <ul>
+        <li>Advanced Computer Architecture</li>
+        <li>Parallel Programming</li>
+        <li>GPU Programming and Optimization</li>
+        <li>Operating Systems</li>
+        <li>Algorithms and Data Structures</li>
+      </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li><a href="https://github.com/your-username/FSM-Ninja">FSM Ninja</a>: A visual tool to create and test finite state machines.</li>
+        <li><a href="https://github.com/naser-kazemi/Rope-Movement-Simulation">Rope Movement Simulation</a>: Simulating the movement of a rope using physics-based algorithms.</li>
+        <li><a href="https://github.com/Arash1381-y/SPMV-C">SPMV-C</a>: Matrix-vector multiplication with various optimization techniques.</li>
+        <li><a href="https://github.com/Arash1381-y/computer-network-1402-1">Computer Network 1402-1</a>: A simulation of network communication using various protocols.</li>
+      </ul>
+    </section>
+
+    <!-- Research Experience Section -->
+    <section id="research">
+      <h2>Research Experience</h2>
+      <p>I interned at the Barcelona Supercomputing Center, where I worked on a RISC-V processor. My research focused on improving the performance of GPUs through optimized utilization of Tensor Cores in the GPGPU-Sim framework. I’m also working on a project to better simulate SSD architectures in a modified NVMeVirt environment.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>You can reach me via email at: <a href="mailto:alireza.foroudnia@example.com">alireza.foroudnia@example.com</a></p>
+    </section>
+
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Alireza Foroudnia | Sharif University of Technology</p>
+  </footer>
+
 </body>
 </html>
